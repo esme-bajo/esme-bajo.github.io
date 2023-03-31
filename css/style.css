@@ -1,0 +1,66 @@
+html {
+    background-color: #C6CBE4;
+    font-size: 20px;
+    font-family: "Baskerville", serif;
+    line-height: 36px;
+}
+
+h1, h2, h3 {
+    margin: 0px 0px 0px 0px;
+    color: #28292F;
+    padding: 20px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 100px;
+    font-weight: normal;
+    color: #398C99 ;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+body {
+    color: #28292F ;
+}
+
+a {
+    color: #398C99 ;
+    text-decoration: none;
+    border-bottom: 0px solid #398C99 ;
+}
+
+a:hover {
+  border-bottom: 1px solid #398C99 ;
+}
+
+img.photo {
+  max-width:30%;
+  max-height:30%;
+  float:right;
+  margin: 40px 20px 0px 20px;
+  border-radius:50%;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+div#navigation{padding-bottom:18px;text-align:right;background-color:#28292F}
+div#navigation a:first-child{margin-top:px}
+div#navigation a{border:none;margin:20px 12px 0px 12px}
+div#lightbox{margin:0px;background-color:#000;height:100%}@media all
+and (min-width:1100px){div#navigation{float:right;right:0px;position:fixed;top:0px;width:200px;height:100%;padding:0 20px 0 20px;margin:0}
+div#navigation h1, div#navigation > a{display:block;text-align:right}
+div#navigation > div > a > i.fa{font-size:1.5em}
+div#navigation > div{margin-top:10px;text-align:right}
+div#navigation a{margin:6px 0px 6px 0px}
+div#content{margin:40px 0px 20px 150px;padding:0px 36px 0px 36px;width:1000px}
+div#lightbox{margin:0px 0px 0px 160px}}
